@@ -4,4 +4,4 @@
 
 Книга написана в КГПИ (Куйбышевский государственный педагогический институт), файлы книги подготовлены в редакторе ТОР. 
 
-![Основная страница](https://wiki.yola.ru/msx-basic_programming_guide)
+Для конвертирования использован ![MSX-Russian-text-to-UTF-8-converter](https://github.com/mr-GreyWolf/MSX-Russian-text-to-UTF-8-converter/)
