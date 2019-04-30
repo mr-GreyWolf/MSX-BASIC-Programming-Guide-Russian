@@ -469,4 +469,3 @@ VII.4.1. К о м а н д ы  д л я  у п р а в л е н и я  т и п
    50 LPRINT CHR$(11);
    60 LPRINT "LINE NUMBER 5.":LPRINT "LINE NUMBER 6."
 
-

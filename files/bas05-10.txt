@@ -411,4 +411,3 @@ SCREEN 5.
 па OR,AND,XOR,PSET,PRESET,TOR,TAND,TXOR,TPSET,TPRESET,расположенный после
 указания цвета через запятую.
 
-
