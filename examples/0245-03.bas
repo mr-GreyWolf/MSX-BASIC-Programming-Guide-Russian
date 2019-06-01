@@ -1,0 +1,7 @@
+100 DATA 34
+110 READ A,B,C$,D$,E
+120 DATA 234e-7,goldfish
+130 DATA "testing,1..2..3!"
+140 PRINT A,B,C$,D$,E
+1000 DATA 22
+
