@@ -1,0 +1,7 @@
+10 FOR X=1 TO 100
+20 FOR Y=1 TO  10
+30 PRINT "1000 раз"
+40 NEXT Y
+50 PRINT "Tолько 100 раз"
+60 NEXT X
+

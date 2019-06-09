@@ -1,0 +1,12 @@
+5  INPUT N:DIM A(N)
+6  X=RND(-TIME)
+7  FOR I=1 TO N:A(I)=INT(10*RND(1)):PRINT A(I);:NEXT:PRINT
+10    S=0
+20    FOR I=1 TO N
+30       P=0
+40       FOR J=1 TO N
+50          IF A(I)=A(J) THEN P=P+1
+60       NEXT J
+70 IF P>1 THEN S=S+1
+80 NEXT I:PRINT S
+
