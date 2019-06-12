@@ -1,0 +1,10 @@
+10 INPUT A$:S=0
+20 FOR I=1 TO LEN(A$) 
+30    P=0
+40    FOR J=1 TO LEN(A$)
+50       IF MID$(A$,I,1)=MID$(A$,J,1) THEN P=P+1
+60    NEXT J
+70    IF P>1 THEN S=S+1/P
+80 NEXT I
+90 PRINT FIX(S+.5):END
+
