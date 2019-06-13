@@ -1,0 +1,15 @@
+10 DIM A(100):PRINT"Введите число N":INPUT N:A(1)=1:J=1
+60 FOR I=2 TO N
+80    P=0
+90    FOR K=1 TO J
+100      C=A(K)*I+P:P=INT(C/10):A(K)=C-P*10
+130   NEXT K
+140   IF P=0 GOTO 200
+150   J=J+1
+160   IF J>100 THEN PRINT"Не хватает места в массиве":STOP
+170   A(J)=P-INT(P/10)*10:P=INT(P/10)
+190   GOTO 140
+200 NEXT I
+210 PRINT STR$(N);"!=";
+220 FOR K=J TO 1 STEP -1:PRINT RIGHT$(STR$(A(K)),1);:NEXT K
+
