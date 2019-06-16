@@ -1,0 +1,4 @@
+5 '"Цветок".
+10 COLOR 1,15,8:SCREEN 2:FOR K=0 TO 3:L=4*K
+30 DRAW"a=k; s4 c13 bm128,85 e10 r10 f10 d10 g10 l10 h10 u10":NEXT:A$=INPUT$(1)
+
