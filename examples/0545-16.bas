@@ -1,0 +1,5 @@
+5 'Прямоугольники разных цветов
+10 COLOR 1,15,8:SCREEN2:PSET(-4,160)
+20 FOR X=0 TO15:LINE STEP(8,-130)-STEP(8,130),X,BF:NEXT
+50 GOTO 50
+
