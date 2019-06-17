@@ -1,0 +1,8 @@
+10 DIM AK(INT((4*(ABS(41-71)+1)*(ABS(41-71)+1)+7)/8)+4)
+20 SCREEN 5:SET PAGE 0,0
+30 LINE(40,40)-(70,70),15,BF
+35 COPY(41,41)-(71,71),0 TO AK 'Скопировали изображение в массив AK
+40 A$=INKEY$:IF A$="" THEN 40
+50 COPY AK,0 TO (150,150),0
+70 A$=INKEY$:IF A$="" THEN 70
+
