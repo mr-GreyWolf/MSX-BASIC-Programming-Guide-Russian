@@ -1,0 +1,8 @@
+10 COLOR 15,4:SCREEN 4:SPRITE$(0)=STRING$(8,255)
+30 PUT SPRITE 0,(200,100),15,0
+40 ON SPRITE GOSUB 100:SPRITEON' Включен режим прерываний по столкнове- 
+55                            COLOR SPRITE(0)=&B00100001' нию спрайтов!
+60 FOR X=0 TO 240:PUT SPRITE 1,(X,100),15,0:NEXT  
+90 GOTO 60 'WW▐
+100 SCREEN 0:RETURN 10
+
