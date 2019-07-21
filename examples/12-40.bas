@@ -1,0 +1,5 @@
+50 INPUT"þลอี ามืฮู A,B,C,D";A,B,C,D
+60 P0=(A+B)*(C+D):P1=A*D:P2=B*C:S1=P0-(P1+P2):S2=P1-P2
+80 PRINT "AC+BD=";S1,"AD-BC=";S2
+90 END
+

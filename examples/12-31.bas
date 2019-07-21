@@ -1,0 +1,6 @@
+10 INPUT X$,Y$
+15 IF X$="" OR Y$="" THEN PRINT "Нет":GOTO 10
+20 FOR I=1 TO LEN(Y$):FOR J=1 TO LEN(X$)
+30 IF MID$(Y$,I,1)=MID$(X$,J,1) THEN X$=LEFT$(X$,J-1)+RIGHT$(X$,LEN(X$)-J):A$="Да":NEXT I ELSE A$="Нет":NEXT J
+50 PRINT A$:END
+
