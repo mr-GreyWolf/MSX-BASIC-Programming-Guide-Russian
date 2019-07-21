@@ -1,0 +1,4 @@
+10 FOR I=1 TO 50
+20    LPRINT TAB(25-20*SIN(I/3));"Принтер!"
+30 NEXT I
+

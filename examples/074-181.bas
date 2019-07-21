@@ -1,0 +1,2 @@
+10 LPRINT "ONE";CHR$(9);"TWO";CHR$(9);"THREE";CHR$(9);"FOUR"
+
