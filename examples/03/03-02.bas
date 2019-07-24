@@ -1,0 +1,8 @@
+20 DATA 20,15,10,5,3,2,1
+30 PRINT "Введите сумму в копейках"
+40 DEFINT S,I:INPUT S
+50 IF S<>INT(S) OR S<1 THEN 20 ELSE PRINT"Разменяю-"
+70 FOR I=1 TO 7:READ M:K=INT(S/M)
+100 IF K>0 THEN PRINT K;"раз";M;"коп.":S=S-K*M ELSE S=S-K*M
+120 NEXT I:END
+
