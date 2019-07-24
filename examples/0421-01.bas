@@ -1,2 +1,0 @@
-10 X$="12345678910":INPUT Y$,M,N:MID$(X$,M,N)=Y$:PRINT X$
-
