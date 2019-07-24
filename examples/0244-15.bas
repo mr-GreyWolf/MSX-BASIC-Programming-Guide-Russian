@@ -1,3 +1,0 @@
-10 INPUT Z,U,V,W
-20 PRINT U;SPC(Z);V;SPC(Z);W
-

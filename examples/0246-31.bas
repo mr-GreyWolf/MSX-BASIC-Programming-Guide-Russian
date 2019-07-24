@@ -1,3 +1,0 @@
-10 Y$="BASIC":A$="MSX-&"
-20 PRINTUSING A$;Y$
-

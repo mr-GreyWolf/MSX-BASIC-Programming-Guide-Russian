@@ -1,3 +1,0 @@
-10 A=5:INPUT A:PRINT A
-20 END
-
