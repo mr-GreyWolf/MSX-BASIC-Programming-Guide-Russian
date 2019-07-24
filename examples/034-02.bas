@@ -1,2 +1,0 @@
-10 FOR L=1 TO 10:PRINT L;L^3:NEXT L
-

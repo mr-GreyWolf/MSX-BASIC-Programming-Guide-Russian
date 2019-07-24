@@ -1,0 +1,5 @@
+10 INPUT X$,N
+20 U$=MID$(X$,1,N)
+30 V$=LEFT$(X$,N)
+40 PRINT U$;V$
+

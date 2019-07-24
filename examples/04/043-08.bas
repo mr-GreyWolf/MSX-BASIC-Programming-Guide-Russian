@@ -1,0 +1,7 @@
+5 ON ERROR GOTO 100
+10 DEF FNY(X)=X^3
+15 DEF FNY$(X$)=X$+"(Козьма Прутков)"
+18 DEFSTR X
+20 LINEINPUT X:PRINT FNY(X):END
+100 IFERR=13 THEN DEFSTR Y:RESUME0'Код 13 имеет ошибка"Type mismatch"!
+
