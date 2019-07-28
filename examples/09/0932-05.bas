@@ -1,0 +1,5 @@
+10 MAXFILES=5:OPEN "Карп" FOR OUTPUT AS#4
+30 INPUT "Количество элементов";S
+40 FOR K=1 TO S:INPUT M:PRINT #4,M;",";:NEXT K
+50 CLOSE #4
+

@@ -1,0 +1,6 @@
+20 OPEN "Сазан" FOR OUTPUT AS#1
+30 R=123.789:K$="КRA,,N;W2"
+40 I$=CHR$(34)
+50 PRINT #1,R;",";I$;K$;I$
+60 CLOSE #1
+
