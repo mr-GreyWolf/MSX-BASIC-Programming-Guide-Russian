@@ -1,0 +1,7 @@
+1 A$="полет"
+2 PRINT HEX$(PEEK(VARPTR(A$)+2)); HEX$(PEEK(VARPTR(A$)+1))
+3 A$="налет"
+4 PRINT HEX$(PEEK(VARPTR(A$)+2)); HEX$(PEEK(VARPTR(A$)+1))
+5 MID$(A$,1,2)="по"
+6 PRINT HEX$(PEEK(VARPTR(A$)+2)); HEX$(PEEK(VARPTR(A$)+1))
+

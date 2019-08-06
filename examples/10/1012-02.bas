@@ -1,0 +1,5 @@
+10 FOR I=0 TO 13:READ V
+20 OUT &HA0,I:OUT &HA1,V 'Имитация действия оператора SOUND I,V
+30 NEXT:END
+100 DATA 0,0,0,0,0,0,30,&HB7,16,0,0,0,90,14
+
