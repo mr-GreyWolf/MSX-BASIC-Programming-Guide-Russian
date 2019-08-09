@@ -4,7 +4,7 @@
 
 Книга написана в КГПИ (Куйбышевский государственный педагогический институт), файлы книги подготовлены в редакторе ТОР. 
 
-Для конвертирования использован ![MSX-Russian-text-to-UTF-8-converter](https://github.com/mr-GreyWolf/MSX-Russian-text-to-UTF-8-converter/)
+Для конвертирования использован ![Конвертер текстов созданных на MSX в кодировку UTF-8](https://github.com/mr-GreyWolf/MSX-Russification/tree/master/converter)
 
 `MSX-BASIC_Programming_Guide-Original.zip` — архив с оригинальными файлами
 
@@ -14,7 +14,7 @@
 
 Здесь размещены файлы с оригиналом книги.
 
-Ведутся работы по преобразованию книги в формат **DokuWiki**, рабочие материалы находятся здесь: https://wiki.yola.ru/msxbpg
+Ведутся работы по преобразованию книги в формат **DokuWiki**, рабочие материалы находятся здесь: https://sysadminmosaic.ru/msxbpg
 
 ## Содержание
 
