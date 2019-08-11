@@ -1,0 +1,7 @@
+10 FOR A=0 TO 8
+20    FOR X=0 TO 7
+30       VPOKE &H2000+65*8+X,(X+A)*16
+40    NEXT X
+50 NEXT A
+60 GOTO 10
+

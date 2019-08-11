@@ -1,0 +1,7 @@
+10 FOR X=0 TO 2
+20    A=&H2000+&H800*X+255*8
+30    FOR Y=0 TO 7
+40       VPOKE A+Y,Y*16
+50    NEXT Y
+60 NEXT X
+
