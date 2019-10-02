@@ -6,11 +6,11 @@
 
 Для конвертирования использован ![Конвертер текстов созданных на MSX в кодировку UTF-8](https://github.com/mr-GreyWolf/MSX-Russification/tree/master/converter)
 
-`MSX-BASIC_Programming_Guide-Original.zip` — архив с оригинальными файлами
+[MSX-BASIC_Programming_Guide-Original.zip](MSX-BASIC_Programming_Guide-Original.zip) — архив с оригинальными файлами
 
-`files` — папка с файлами которые конвертированы из формата MSX в UTF-8
+[files](files) — папка с файлами которые конвертированы из формата MSX в UTF-8
 
-`examples` — папка с файлами примеров из глав этой книги
+[examples](examples) — папка с файлами примеров из глав этой книги
 
 Здесь размещены файлы с оригиналом книги.
 
