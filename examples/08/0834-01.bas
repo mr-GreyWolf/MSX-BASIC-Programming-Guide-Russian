@@ -1,5 +1,0 @@
-10 ON ERROR GOTO 50:INPUT M
-30 IF A(M)=0 THEN PRINT"Ошибки нет!":GOSUB40:END
-40 PRINT"Осуществлен переход на оператор GOSUB 40!":RETURN
-50 RESUME NEXT
-

@@ -1,2 +1,0 @@
-10 W$=INPUT$(2):PRINTW$:GOTO 10
-

@@ -1,4 +1,0 @@
-10 COLOR 1,11,7:SCREEN 2:OPEN "GRP:" FOR OUTPUT AS#1
-30 PSET (69,80):PRINT #1,"Текст на графическом экране SCREEN 2"
-50 GOTO 50
-

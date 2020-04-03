@@ -1,6 +1,0 @@
-10 SCREEN 2:COLOR 1,15,4
-20 FOR I=1 TO 1000:NEXT
-30 ::::'Пустой оператор!
-40 COLOR 15,1,4
-50 FOR I=1 TO 1000:NEXT
-

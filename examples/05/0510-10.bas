@@ -1,8 +1,0 @@
-10 COLOR 15,0,0
-20 SCREEN 5:DIM A(1000):VDP(1)=VDP(1)XOR64 'Отключение экрана
-30 CIRCLE (80,80),3,13:PAINT (80,80),13
-40 COPY (74,74)-(86,86) TO A:CLS:VDP(1)=VDP(1)XOR64'Включение экрана
-50 FOR I=0 TO 256 ' Попробуйте оператор FOR I=0 TO 256 STEP 4
-60 COPY A TO (I,80)
-70 NEXT:GOTO 50
-

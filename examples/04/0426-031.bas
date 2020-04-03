@@ -1,4 +1,0 @@
-10 INPUT M,N:M$=STR$(M):N$=STR$(N)
-30 FOR I=2 TO LEN(N$):FOR J=2 TO LEN(M$)
-40 IF MID$(N$,I,1)<>MID$(M$,J,1) THEN NEXT J:PRINT"Нельзя!"ELSE NEXTI:PRINT"Можно!"
-

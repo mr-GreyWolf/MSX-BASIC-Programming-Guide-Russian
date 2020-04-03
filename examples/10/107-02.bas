@@ -1,3 +1,0 @@
-10 M=9:T$=STRING$(5,"+"):PRINTM;T$
-20 CLEAR:PRINTM;T$
-

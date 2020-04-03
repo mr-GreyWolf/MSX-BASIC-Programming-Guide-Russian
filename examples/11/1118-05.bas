@@ -1,9 +1,0 @@
-10 DIM X(3):SCREEN 2,0
-20 A$="ЧЧЧЧЧЧЧЧ":Y=0
-30 FOR I=1 TO 3:SPRITE$(I)=A$:X(I)=10*I:NEXT I
-40 PUT SPRITE 1,(X(1),Y),1,1
-50 PUT SPRITE 3,(X(3),Y),15,3
-60 PUT SPRITE 2,(X(2),Y),8,2
-70 Y=Y+1:IF Y>208 THEN BEEP:A$=INPUT$(1):END 'Исчезли два спрайта!
-80 GOTO 60
-

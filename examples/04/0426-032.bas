@@ -1,4 +1,0 @@
-10 INPUT M,N:X$=" ":M$=STR$(M):N$=STR$(N)
-40 FOR I=2 TO LEN(N$):FOR J=2 TO LEN(M$)
-50 IF MID$(N$,I,1)=MID$(M$,J,1) THEN MID$(N$,I,1)=X$:MID$(M$,J,1)=X$:NEXTI:PRINT"Можно!" ELSE NEXTJ:PRINT"Нельзя!"
-

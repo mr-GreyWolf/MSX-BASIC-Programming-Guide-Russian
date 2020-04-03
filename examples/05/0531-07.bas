@@ -1,5 +1,0 @@
-10 CLS:LOCATE 1,1
-20 PRINTCHR$(255);"Я здесь!"
-30 LOCATE 2,2,0:FOR I=1 TO 1000:NEXT
-40 PRINT CHR$(255);"А теперь здесь!"
-

@@ -1,7 +1,0 @@
-10 DATA &B00000001,&B10000000
-30 LPRINT CHR$(27);"T16";  'Команда устранения пробелов между строками
-40 FOR I=1 TO 2
-50    LPRINT CHR$(27);"S0200";:LPRINT CHR$(255);:READ A
-80    LPRINT STRING$(198,CHR$(A));:LPRINT CHR$(255)
-100 NEXT I
-

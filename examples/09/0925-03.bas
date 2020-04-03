@@ -1,9 +1,0 @@
-10 MAXFILES=5:OPEN "LU" AS#4
-20 FIELD #4, 2 AS A$, 4 AS B$, 8 AS E$
-30 INPUT X%:LSET A$=MKI$(X%)
-40 INPUT Y!:LSET B$=MKS$(Y!)
-50 INPUT Z#:LSET E$=MKD$(Z#)
-60 PRINT A$;" ";B$;" ";E$
-70 RSET A$=MKI$(X%):RSET B$=MKS$(Y!):RSET E$=MKD$(Z#)
-80 PRINT A$;" ";B$;" ";E$
-
